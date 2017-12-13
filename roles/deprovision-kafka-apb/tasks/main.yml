@@ -1,0 +1,7 @@
+- name: delete barnabas resource
+  command: oc delete service {{ item }} -n {{ namespace }}
+  with_items:
+    - kafka-headless
+    - kafka
+    - zookeeper-headless
+    - zookeeper

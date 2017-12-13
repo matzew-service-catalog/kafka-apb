@@ -1,0 +1,13 @@
+version: 1.0
+name: kafka-apb
+description: APB for Apache Kafka and Apache Zookeeper
+bindable: False
+async: optional
+metadata:
+  displayName: kafka
+plans:
+  - name: default
+    description: This default plan deploys kafka-apb
+    free: True
+    metadata: {}
+    parameters: []
