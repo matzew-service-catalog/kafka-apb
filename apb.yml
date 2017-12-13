@@ -4,7 +4,8 @@ description: APB for Apache Kafka and Apache Zookeeper
 bindable: False
 async: optional
 metadata:
-  displayName: kafka
+  displayName: Apache Kafka Cluster
+  console.openshift.io/iconClass: fa fa-envelope
 plans:
   - name: default
     description: This default plan deploys kafka-apb
