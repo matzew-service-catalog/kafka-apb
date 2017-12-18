@@ -5,7 +5,9 @@ bindable: False
 async: optional
 metadata:
   displayName: Apache Kafka Cluster
-  console.openshift.io/iconClass: fa fa-envelope
+  imageUrl: "https://svn.apache.org/repos/asf/kafka/site/logos/kafka-logo-no-text.png"
+  documentationUrl: "http://kafka.apache.org/documentation"
+  providerDisplayName: "Matthias Wessendorf"
 plans:
   - name: default
     description: This default plan deploys kafka-apb
